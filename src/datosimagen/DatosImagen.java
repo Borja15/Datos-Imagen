@@ -98,7 +98,7 @@ public class DatosImagen extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         String ruta = Imagenruta.getText();
-        ImageIcon imagen = new ImageIcon("C:\\Users\\Borja Andrades\\Desktop\\DatosImagen\\src\\imagenes\\Youtube.png");
+        ImageIcon imagen = new ImageIcon("C:\\Users\\Usuario\\Desktop\\MIS COSAS\\Grado\\programacion\\programacion\\NetBeans\\DatosImagen\\src\\Youtube.png");
         int ancho = imagen.getIconWidth();
         int alto = imagen.getIconHeight();
         ImagenTamaño.setText(String.valueOf(ancho+"x"+alto));
